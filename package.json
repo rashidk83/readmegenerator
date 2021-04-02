@@ -1,14 +1,26 @@
 {
-  "name": "static-site",
+  "name": "readmegenerator",
   "version": "1.0.0",
-  "description": "",
+  "description": "To quickly and easily generate a README file by using a command-line application to generate one.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rashidk83/readmegenerator.git"
+  },
+  "author": "Henry Kariuki",
+  "bugs": {
+    "url": "https://github.com/rashidk83/readmegenerator/issues"
+  },
+  "homepage": "https://github.com/rashidk83/readmegenerator#readme",
   "dependencies": {
-    "inquirer": "^6.3.1"
+    "axios": "^0.20.0",
+    "inquirer": "^7.3.3",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.10.0"
   }
 }
